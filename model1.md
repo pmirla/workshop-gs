@@ -217,7 +217,18 @@ plt.show()
 
 
 TP: The model correctly predicts the positive class.
+
 TN: The model correctly predicts the negative class.
+
 FP: The model incorrectly predicts the positive class (a type I error).
+
 FN: The model incorrectly predicts the negative class (a type II error).
+
+
+Precision = TP / (TP + FP)
+
+Recall = TP / (TP + FN)
+
+
+
 
