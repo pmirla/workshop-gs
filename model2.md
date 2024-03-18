@@ -176,3 +176,19 @@ plt.show()
 
 ![image](https://github.com/pmirla/workshop-genus/assets/5429924/5d2277e1-2a46-4aa6-be1f-06793076a640)
 
+
+TP: The model correctly predicts the positive class.
+
+TN: The model correctly predicts the negative class.
+
+FP: The model incorrectly predicts the positive class (a type I error).
+
+FN: The model incorrectly predicts the negative class (a type II error).
+
+
+Precision = TP / (TP + FP)
+
+Recall = TP / (TP + FN)
+
+
+
