@@ -1,3 +1,4 @@
+```python
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -58,3 +59,4 @@ with torch.no_grad():
     _, predicted_class = torch.max(predicted, 1)
     print(f"Predicted class: {predicted_class.item()}")
 
+```
