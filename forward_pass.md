@@ -1,3 +1,4 @@
+```python
 # Let's redefine the neural network with print statements to log the forward pass
 
 class NeuralNetworkWithLogs(nn.Module):
@@ -31,3 +32,7 @@ dummy_input = torch.tensor([[0.3, 0.7]])
 # Forward pass with logs
 print("Forward Pass Logs:")
 model_with_logs(dummy_input)
+
+
+
+```
